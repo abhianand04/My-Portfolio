@@ -69,7 +69,7 @@ nav ul li a:hover::after{
     font-size: 45px;
 }
 .header-text h2{
-    font-size: 75px;
+    font-size: 52px;
 }
 .header-text{
     margin-top: 20%;
@@ -81,6 +81,7 @@ nav ul li a:hover::after{
 }
 .header-text span{
     color: #ff004f;
+    font-family: 'Bree Serif', serif;
 }
 /* ------------------------About-------------------------- */
 
@@ -343,6 +344,9 @@ nav .fas{
         margin-top: 100%;
         font-size: 16px; 
     }
+    /* .header-text h2 {
+        font-size: 33px;
+    } */
     .header-text h1{
         font-size: 30px;
     }
