@@ -83,6 +83,9 @@ nav ul li a:hover::after{
     color: #ff004f;
     font-family: 'Bree Serif', serif;
 }
+#anand{
+    font-size: 50px;
+}
 /* ------------------------About-------------------------- */
 
 #about{
