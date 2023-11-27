@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon.jpg">
+    <script src="https://kit.fontawesome.com/3eb6011b2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>A</span>bhishek</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <h1 id="anand"><span>&nbsp;&nbsp;&nbsp;&nbsp;A</span>nand</h1>
+            <div class="header-text">
+                    <p>Developer</p>
+                    <h2>I'm a software developer and here is my <br>portfolio website. here you can see<br> my  journey as a software<br> developer.
+                    </h2>
+                    <!-- <h2>Hi I'm <span>Abhishek <br>Anand </span>From <br> India</h2> -->
+                </div>   
+        </div>
+        
+    </div>
+    <!-- ---------------------------About--------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/user.jpg" alt=""></div>
+                <div class="about-col-2"><h1 class="sub-title">About Me</h1>
+                <p>As a developer, I possess a strong set of skills and a passion for creating stunning and functional websites. My expertise in HTML, CSS, and JavaScript enable me to design and develop web pages with high-quality code. I ensure that every aspect of the website is visually appealing and responsive across multiple devices. My ability to work collaboratively with others makes me a valuable team player, and my dedication to delivering projects on time and within budget demonstrates my commitment to achieving the best possible results. Overall, I am a driven and talented developer who is always eager to learn and grow in my field.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Projects</p>
+                    <p class="tab-links"onclick="opentab('education')">Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>Language</span><br>C++, Python</li>
+                        <!-- <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span> -->
+                        <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                        <!-- <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> -->
+                        <li><span>Database</span><br>SQL</li>
+                        <!-- <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </ul> -->
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>July 2022</span><br>Online Food Delivery : Using HTML and CSS</li>
+                        <li><span>September 2022</span><br>Spotify Playlist : Using HTML, CSS and JavaScript</li>
+                        <li><span>March 2023</span><br>Tic Tac Toe : Using HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B-Tech From Bharath Institute Of Higher Education And Research</li>
+                        <li><span>2020</span><br>intermediate M.R.J.D Inter College</li>
+                        <li><span>2018</span><br>River Valley School</li>
+                    </ul>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------Project----------------------------------- -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project-1.jpg">
+                <div class="layer">
+                    <h3>Online Food Delivery</h3>
+                    <p>This is my online food delivery app which is created with the help of HTML 
+                        and CSS. 
+                        
+                    </p>
+                        <a href="https://abhianand04.github.io/Online-Food-Delivery/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project-2.png">
+                <div class="layer">
+                    <h3>Spotify Playlist</h3>
+                    <p>This is my spotify playlist which i have created with the help of
+                        HTML, CSS and JavaScript.
+                    </p>
+                        <a href="https://abhianand04.github.io/Spotify-Playlist/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project-3.jpg">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>This is my Tic Tac Toe website which i have created with the help 
+                        HTML and CSS and JavaScript.
+                    </p>
+                        <a href="https://abhianand04.github.io/Tic-Tac-Toe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <button class="btn">See More</button>
+    </div>
+</div>
+<!-- -------------------------------Certificates------------------------------- -->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificates-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>I have done Python from Great Learning in online mode in September 2022.</p>
+                <a href="images/certificatesPY.pdf">View Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>MY SQL Basics</h2>
+                <p>I have done MY SQL Basics from Great Learning in online mode in September 2022.</p>
+                <a href="images/certificatesSQL.pdf">View Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Geo-data sharing and Cyber Security</h2>
+                <p>I have done Geo-data sharing and Cyber Security from IIRS in online mode from 17-10-2022 to 21-
+                    10-2022.
+                    </p>
+                <a href="images/certificateIIRS.pdf">View Certificate</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------------Contact---------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> abhishekraja0410@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7631330047</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100008450283972"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/abhishekchunnu?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Abhishekchunnu_"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-anand-90b209244/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/abhianand04"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="Submit" class="btn btn2" >Submit</button>
+        </form>
+        <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; My Portfolio <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxE1_yinJ5JpyVCdZzOce1bbZwzVSME_jWdhyLCdS3zhFwGevor3aPnFvZc446fRgRa/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHtml = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
